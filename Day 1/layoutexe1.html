@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Page Title</title>
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            #main-header {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px;
+                min-height: 80px;
+                background-color: #ccc;
+            }
+            .left-header {
+                width: 50%;
+                background-color: #ccc;
+                align-self: center;
+            }
+            .right-header {
+                width: 50%;
+                background-color: #ccc;
+                text-align: right;
+                align-self: center;
+            }
+            .top-content {
+                display: flex;
+                min-height: 180px;
+            }
+            h2 {
+                color: white;
+            }
+            .left-content {
+                width: calc(100% / 3);
+                background-color: pink;
+                padding: 20px;
+            }
+            .mid-content {
+                width: calc(100% / 3);
+                background-color: blue;
+                padding: 20px;
+            }
+            .right-content {
+                width: calc(100% / 3);
+                background-color: green;
+                padding: 20px;
+            }
+            .bot-content {
+                display: flex;
+                flex-wrap: wrap;
+                min-height: 340px;
+            }
+            h3 {
+                color: black;
+            }
+            .first-content {
+                width: 80%;
+                background-color: yellow;
+                padding: 20px;
+            }
+            .second-content {
+                width: 20%;
+                background-color: blue;
+                padding: 20px;
+            }
+            footer {
+                background-color: skyblue;
+                height: 40px;
+                text-align: center;
+                color: white;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <header id="main-header">
+            <div class="left-header">
+            <h1>LOGO</h1>
+            </div>
+            <aside class="right-header">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+            </aside>
+        </header>
+        <main>
+            <div class="top-content">
+                <div class="left-content">
+                    <h2>Product Title</h2>
+                    <p style="margin-bottom: 10px;"></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni possimus cupiditate rem, quis corporis amet earum dolor vitae incidunt sint dignissimos, accusantium veritatis natus perspiciatis suscipit. Iusto sint at tenetur.</p>
+                </div>
+                <div class="mid-content">
+                    <h2>Product Title</h2>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni possimus cupiditate rem, quis corporis amet earum dolor vitae incidunt sint dignissimos, accusantium veritatis natus perspiciatis suscipit. Iusto sint at tenetur.</p>
+                </div>
+                <div class="right-content">
+                    <h2>Product Title</h2>
+                    <p style="margin-bottom: 10px;"></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni possimus cupiditate rem, quis corporis amet earum dolor vitae incidunt sint dignissimos, accusantium veritatis natus perspiciatis suscipit. Iusto sint at tenetur.</p>
+            </div>
+            </div>
+            <div class="bot-content">
+                <div class="first-content">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ducimus maxime explicabo, quasi officiis in sapiente possimus rem hic soluta ea nihil, enim recusandae unde quae illo velit assumenda facilis!</p>
+                </div>
+                <div class="second-content">
+                    <h3>Sidebar</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Google</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>Page Footer</p>
+        </footer>
+    </body>
+</html>
