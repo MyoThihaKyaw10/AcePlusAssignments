@@ -1,0 +1,50 @@
+
+header {
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+nav a:hover {
+    color: orange;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.content{
+    background-color: red;
+    width: calc(100% / 3);
+    height: 100px;
+}
+table {
+    border-collapse: collapse;
+    text-align: left;
+}
+table, th, td {
+    border: 1px black;
+}
+div + p {
+    color: green;
+}
+p::before {
+    content: "Note :";
+    font-weight: bold;
+    color: #FF6347;
+}
+ol > li > ol > li  {
+    color: orange;
+}

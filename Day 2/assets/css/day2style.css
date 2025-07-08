@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #ff5722;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.banner {
+    background: url(background_img.jpg) no-repeat center center/cover;
+    text-align: center;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bannertext {
+    width: 600px;
+}
+.banner h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.banner p {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.banner button {
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 999px;
+}
+.FAQ {
+    text-align: center;
+    padding: 50px 150px;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+.stamp {
+  position: relative;
+  width: 160px;
+  height: 20px;
+  margin: 0 auto 10px;
+}
+
+.line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 0.5px;
+  background-color: #ff5722;
+  transform: translateY(-50%);
+  z-index: 1;
+  width: 160px;
+}
+
+.dot {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background-color: #ff5722;
+  border-radius: 50%;
+  border: 3px solid white;
+  z-index: 2;
+}
+.FAQlist {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+.FAQlist dt{
+    background-color: #ff5722;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    position: relative;
+    margin-top: 15px;
+}
+.FAQlist dt::after {
+      content: '+';
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 13px;
+    }
+.FAQlist dd {
+      background-color: #fff;
+      padding: 15px;
+      border: 1px solid #eee;
+      border-top: none;
+      margin: 0;
+    }
+.invoice > h2 {
+    text-align: center;
+}
+table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: white;
+}
+th, td {
+      padding: 12px;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+th {
+      background-color: #eee;
+    }
+footer {
+      background: black;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 14px;
+    }
